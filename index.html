@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATELIER STELLA - Independent Clothing & Art Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <a href="index.html" class="selected">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+            </nav>
+            <h1>ATELIER STELLA</h1>
+        </header>
+
+        <main>
+            <section class="hero">
+                <img src="images/hero1x.jpg" 
+                     srcset="images/hero1x.jpg 1x, images/hero2x.jpg 2x"
+                     alt="light refracting on wall with flower shadow"
+                     width="1200"
+                     height="600">
+                <div class="hero-text">
+                    <h2>WELCOME TO MY SHOP</h2>
+                </div>
+            </section>
+
+            <section class="brand-statement">
+                <article>
+                    <p>Art is inseperable from the human condition. Clothing is art. The way we chose to represent ourselves to the world each day is an artistic choice and as such should be thought of with the same depth. Art is always situated within a broader world, a political one, so when climate change and huge corporations are trying to seal the fate of the world with horrendous practices, it is up to us to fight it through sustainable practice, no matter how inconsequential they seem. And despite it all, art should still be fun!</p>
+                </article>
+            </section>
+
+            <section class="featured">
+                <article class="featured-section">
+                    <h2>Featured Clothing</h2>
+                    <div class="featured-grid">
+                        <a href="shop.html#clothing" class="featured-item">
+                            <img src="images/hdjacket1x.jpg" 
+                                 srcset="images/hdjacket1x.jpg 1x, images/hdjacket2x.jpeg 2x"
+                                 alt="black leather jacket"
+                                 width="400"
+                                 height="500">
+                            <h3>Harley Davidson Jacket</h3>
+                            <p class="price">$100</p>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="featured-section">
+                    <h2>Featured Art</h2>
+                    <div class="featured-grid">
+                        <a href="shop.html#art" class="featured-item">
+                            <img src="images/naracat2x.jpeg" 
+                                 srcset="images/naracat1x.jpg 1x, images/naracat2x.jpeg 2x"
+                                 alt="Ceramic sculpture of a humanoid cat riding a duck"
+                                 width="400"
+                                 height="500">
+                            <h3>Ceramic Nara Cat</h3>
+                            <p class="price">$250</p>
+                        </a>
+                    </div>
+                </article>
+            </section>
+
+            <section class="contact-section">
+                <h2>Join Our Community</h2>
+                <form action="https://formspree.io/f/xeoybbrd" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="interest">What are you interested in?</label>
+                        <input type="text" id="interest" name="interest" placeholder="Clothing, Art, or Both?">
+                    </div>
+
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 ATELIER STELLA</p>
+        </footer>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

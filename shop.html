@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - ATELIER STELLA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="shop.html" class="selected">Shop</a>
+                <a href="about.html">About</a>
+            </nav>
+            <h1>ATELIER STELLA</h1>
+        </header>
+
+        <main>
+            <section class="shop-intro">
+                <h2>Shop Collection</h2>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-category="all">All</button>
+                    <button class="filter-btn" data-category="clothing">Clothing</button>
+                    <button class="filter-btn" data-category="art">Art</button>
+                </div>
+            </section>
+
+            <section class="shop-grid" id="clothing">
+                <h2>Clothing</h2>
+                <div class="product-grid">
+                    <article class="product-item" data-category="clothing">
+                        <img src="images/brown_jacket1x.jpg" 
+                             srcset="images/brown_jacket1x.jpg 1x, images/brown_jacket2x.jpg 2x"
+                             alt="brown leather jacket"
+                             width="400"
+                             height="500">
+                        <h3>Guess Jacket</h3>
+                        <p class="price">$70</p>
+                        <p class="description">Guess brown leather slim fit leather jacket for women. In excellent condition. </p>
+                        <button class="view-details-btn">View Details</button>
+                        <div class="extra-details">
+                            <p>Size: Women's XS<br>Material: 100% polyester</p>
+                        </div>
+                    </article>
+
+                    <article class="product-item" data-category="clothing">
+                        <img src="images/hdjacket1x.jpg" 
+                             srcset="images/hdjacket1x.jpg 1x, images/hdjacket2x.jpeg 2x"
+                             alt="black leather jacket"
+                             width="400"
+                             height="500">
+                        <h3>Harley Davidson Jacket</h3>
+                        <p class="price">$100</p>
+                        <p class="description">Harley Davidson leather biker jacket in excellent condition with embroidered logo on the back. Super cool vintage, washed-out brown-black.</p>
+                        <button class="view-details-btn">View Details</button>
+                        <div class="extra-details">
+                            <p>Size: Men's XS<br>Material: Shell-100% leather, Lining-100% polyester</p>
+                        </div>
+                    </article>
+
+                    <article class="product-item" data-category="clothing">
+                        <img src="images/tanktop1x.jpg" 
+                             srcset="images/tanktop1x.jpg 1x, images/tanktop2x.jpg 2x"
+                             alt="black tank top"
+                             width="400"
+                             height="500">
+                        <h3>Black Tank Top</h3>
+                        <p class="price">$20</p>
+                        <p class="description">Black tank top from Brandy Melville with a whimsical double layered mesh trim and thin straps.</p>
+                        <button class="view-details-btn">View Details</button>
+                        <div class="extra-details">
+                            <p>Size: Women's S<br>Material: 95% polyester, 5% spandex</p>
+                        </div>
+                    </article>
+
+                    <article class="product-item" data-category="clothing">
+                        <img src="images/boots1x.jpg" 
+                             srcset="images/boots1x.jpg 1x, images/boots2x.jpg 2x"
+                             alt="black calf high leather studded boots"
+                             width="400"
+                             height="500">
+                        <h3>Ash Black Studded Boots</h3>
+                        <p class="price">$200</p>
+                        <p class="description">Black calf high genuine leather boots with black studs from the brand Ash, in good condition.</p>
+                        <button class="view-details-btn">View Details</button>
+                        <div class="extra-details">
+                            <p>Size: Women's 6M</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="shop-grid" id="art">
+                <h2>Art</h2>
+                <div class="product-grid">
+                    <article class="product-item" data-category="art">
+                        <img src="images/naracat2x.jpeg" 
+                             srcset="images/naracat1x.jpg 1x, images/naracat2x.jpeg 2x"
+                             alt="Ceramic sculpture of a humanoid cat riding a duck"
+                             width="400"
+                             height="500">
+                        <h3>Ceramic Nara Cat</h3>
+                        <p class="price">$250</p>
+                        <p class="description">A 3D ceramic rendering of Yoshitomo Nara's 1994 work - 'Harmless Kitty'. </p>
+                        <button class="view-details-btn">View Details</button>
+                        <div class="extra-details">
+                            <p>3" x 4" x 6.5"<br>Materials: clay, ceramic glaze</p>
+                        </div>
+                    </article>
+
+                    <article class="product-item" data-category="art">
+                        <img src="images/jojo2x.jpeg" 
+                             srcset="images/jojo1x.jpg 1x, images/jojo2x.jpeg 2x"
+                             alt="graphite drawing of cat with tongue out"
+                             width="400"
+                             height="500">
+                        <h3>Silly Cat Drawing</h3>
+                        <p class="price">$50</p>
+                        <p class="description">Memorial portrait of my childhood cat in a moment of whimsy. Drawn using graphite on white paper.</p>
+                        <button class="view-details-btn">View Details</button>
+                        <div class="extra-details">
+                            <p>5.5" x 8.5"<br>Materials: graphite, paper</p>
+                        </div>
+                    </article>
+
+                    <article class="product-item" data-category="art">
+                        <img src="images/bug1x.jpg" 
+                             srcset="images/bug1x.jpg 1x, images/bug2x.jpeg 2x"
+                             alt="white paper humanoid roach"
+                             width="400"
+                             height="500">
+                        <h3>Paper Bug</h3>
+                        <p class="price">$30</p>
+                        <p class="description">The form of a but and the material were inspired by the book 'Metamorphosis' by Franz Kafka. The outreaching hands represent the longing expressed by the character of Samsa.</p>
+                        <button class="view-details-btn">View Details</button>
+                        <div class="extra-details">
+                            <p>6" x 4" x 8"<br>Materials: constructino paper, tissue paper, hot glue, wood glue</p>
+                        </div>
+                    </article>
+
+                    <article class="product-item" data-category="art">
+                        <img src="images/vase1x.jpg" 
+                             srcset="images/vase1x.jpg 1x, images/vase2x.jpeg 2x"
+                             alt="unglazed vase with orchids"
+                             width="400"
+                             height="500">
+                        <h3>Inverted Vase(in progress)</h3>
+                        <p class="price">$200</p>
+                        <p class="description">Bisque fired ceramic vase, underside portrays three different kinds of orchids. This vase subverts the traditional function of a base in the fact that only way to use it as a vase necessitates hiding the intricacy of the piece. </p>
+                        <button class="view-details-btn">View Details</button>
+                        <div class="extra-details">
+                            <p>8" x 8" x 12"<br>Materials: clay</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 ATELIER STELLA</p>
+        </footer>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
